@@ -1,5 +1,8 @@
-import Car, CapuletEngine, WilloughbyEngine, SternmanEngine, SpindlerBattery, NubbinBattery
+import Car
+from battery import SpindlerBattery, NubbinBattery
+from engine import CapuletEngine, WilloughbyEngine, SternmanEngine
 from datetime import datetime
+
 
 class CarFactory():
     def __init__(self):
@@ -13,3 +16,4 @@ class CarFactory():
     create_rorschach = Car(NubbinBattery(datetime(2023, 3, 29), today), WilloughbyEngine(59000, 62000))
     create_thovex = Car(NubbinBattery(datetime(2022, 9, 15), today), WilloughbyEngine(10100, 15000))
 
+    

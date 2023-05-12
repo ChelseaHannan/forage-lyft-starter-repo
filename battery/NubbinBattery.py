@@ -1,5 +1,4 @@
-from abc import ABC, ABCMeta
-import datetime
+from abc import ABC
 import Battery
 
 class NubbinBatter(Battery, ABC):
