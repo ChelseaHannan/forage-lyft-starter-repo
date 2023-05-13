@@ -1,7 +1,6 @@
-from abc import ABC
 import Battery
 
-class NubbinBatter(Battery, ABC):
+class NubbinBatter(Battery):
     def __init__(self, last_service_date, current_date):
         super().__init__()
         self.last_service_date = last_service_date

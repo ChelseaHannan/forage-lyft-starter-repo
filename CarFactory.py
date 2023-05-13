@@ -1,7 +1,7 @@
 import Car
 from battery import SpindlerBattery, NubbinBattery
 from engine import CapuletEngine, WilloughbyEngine, SternmanEngine
-from datetime import datetime
+from tire import OctoprimeTire, CarriganTire
 
 
 class CarFactory():
